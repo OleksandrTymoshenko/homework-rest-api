@@ -25,7 +25,7 @@ async function register(req, res) {
     from: "nomakievip@gmail.com",
     subject: "Подтвердите ваш emeil",
     html: `
-    <p>Нажмите для подтверждения регистрации на нашем сайте</p>
+    <p>Нажмите для подтверждения регистрации на сайте</p>
     <button><a target='_blank' href='http://localhost:${PORT}/api/users/verify/${verificationToken}'>Verification</a></buttom>
    `,
   };
